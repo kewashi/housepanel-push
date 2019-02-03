@@ -30,7 +30,7 @@ function updateElements() {
     console.log('Elements being updated from all hubs...');
 
     // read options file here since it could have changed
-    options = JSON.parse(fs.readFileSync('hmoptions.cfg', 'utf8'));
+    options = JSON.parse(fs.readFileSync('/home/pi/html/housepanel/hmoptions.cfg', 'utf8'));
     config = options.config;
     hubs = config.hubs;
     
