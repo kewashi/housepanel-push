@@ -11,8 +11,9 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "sudo systemctl restart housepanel-push"
+    "test": "node housepanel-push.js",
+    "postinstall": "bash config.sh",
+    "start": "node housepanel-push.js"
   },
   "repository": {
     "type": "git",
