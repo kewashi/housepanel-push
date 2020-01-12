@@ -3,8 +3,3 @@ to give users near immediate feedback about state changes made in their smart ho
 on the HousePanel dashboard. This is used together with polling to keep your dashboard
 in sync with the status of your home.
 
-To use this you must have HousePanel V 1.980 or later installed. 
-
-Once installed you must restart HousePanel
-to activate the immediate feedback capability.
-
